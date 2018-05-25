@@ -1,4 +1,5 @@
 #include<bits/stdc++.h>
+#include<math.h>
 using namespace std;
 
 
@@ -83,5 +84,5 @@ for(i=0;i<n;i++)
 		}
 	 
 	 int d = 2 * (arr[n - 1] - start) + (start - arr[0]);
-	 cout<<endl<<"Total Distance: "<<d;
+	 cout<<endl<<"Total Distance: "<<abs(d);
 }
